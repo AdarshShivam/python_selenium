@@ -15,8 +15,6 @@ def generate_random_email_and_password(domain=None, email_prefix=None):
     logger.info(f"Generated Random Email is {email}")
     return email
 
-
-
     # password_length = 20
     # random_password = ''.join(random.choices(string.ascii_letters, k=password_length))
     #

@@ -1,6 +1,18 @@
 from SSQATest.src.SeleniumExtended import SeleniumExtended
 from SSQATest.src.pages.Locators.CheckoutPageLocators import CheckoutPageLocators
 from SSQATest.src.helpers.generic_helpers import generate_random_email_and_password
+import json
+
+class data_from_json():
+    # read
+    file = open('json_files/(file_name).json', 'r')
+    # data = file.read()
+    # parse
+    obj = json.load(file)
+    list_value = obj['test1']
+    # Iterating through json list
+    for keys in list_value:
+        data = keys
 
 class Checkout(CheckoutPageLocators):
 
