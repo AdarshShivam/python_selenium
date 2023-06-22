@@ -20,6 +20,7 @@ jobs:
         with:
           packages: |
             pytest
+            selenium
 
 #       - name: Install dependencies
 #         run: pip install -r requirements.txt
