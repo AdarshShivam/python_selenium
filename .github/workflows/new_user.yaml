@@ -25,4 +25,5 @@ jobs:
 #         run: pip install -r requirements.txt
 
       - name: Run Selenium script
-        run: python SSQATest/tests/my_account/test_register_new_user.py
+        run: python -m pytest -m tcid13
+
