@@ -3,7 +3,7 @@ name: Selenium CI/CD Pipeline
 on:
   push:
     branches:
-      - main
+      - test
 
 jobs:
   build:
